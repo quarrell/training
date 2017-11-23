@@ -6,7 +6,7 @@
 
 ## Tasks
 
-* Install [link](https://www.vagrantup.com/ "Vagrant") on a local computer
+* Install [Vagrant](https://www.vagrantup.com/ "Vagrant") on a local computer
 * Using Vagrant deploy a CentOS box
 * On a CentOS box using shell provisioner of Vagrant make following tasks:
   * Update list of packages;
