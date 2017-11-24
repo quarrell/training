@@ -1,15 +1,5 @@
-# Training task
+## Solution
 
-## Prerquicities
-
-* Linux as a OS and VirtualBox installed
-
-## Tasks
-
-* Install [Vagrant](https://www.vagrantup.com/ "Vagrant") on a local computer
-* Using Vagrant deploy a CentOS box
-* On a CentOS box using shell provisioner of Vagrant make following tasks:
-  * Update list of packages;
-  * Install Apache server
-  * Check that it was installed succesfully
-* All source code should be available on github
+* Pull source code.
+* run ```vagrant up```. It will do task staff and will start Apache server.
+* run ```vagrant ssh```. To check that the task was successfully done look at log file ```cat /vagrant/logfile``` or check it manually. 
